@@ -1,5 +1,37 @@
 # Google Cloud
 
+- [Google Cloud](#google-cloud)
+  - [Best practices for operating containers](#best-practices-for-operating-containers)
+  - [BeyondCorp Enterprise](#beyondcorp-enterprise)
+    - [構成要素](#構成要素)
+    - [Links](#links)
+  - [Cloud Armor](#cloud-armor)
+    - [セキュリティポリシー](#セキュリティポリシー)
+    - [Links](#links-1)
+  - [Connect to Google Cloud](#connect-to-google-cloud)
+    - [Links](#links-2)
+  - [IAP Connector](#iap-connector)
+    - [Links](#links-3)
+  - [VPC Service Controls](#vpc-service-controls)
+    - [Links](#links-4)
+
+---
+
+## Best practices for operating containers
+
+- Use the native logging mecanisms of containers
+  - ![Kubernetesでの標準的なログ管理システムを示す図](https://cloud.google.com/static/architecture/images/bp-operating-containers-log-management.svg)
+  - ![ログ管理用サイドカーパターン](https://cloud.google.com/static/architecture/images/bp-operating-containers-sidecar.svg)
+- Ensure that your containers are stateless and imuutable
+  - ![Pod内の構成ファイルとしてマウントされたConfigMapを使用してDeploymentの構成を更新する例](https://cloud.google.com/static/architecture/images/bp-operating-containers-configmap.svg)
+- Avoid privileged containers
+- Make your application easy to monitor
+- Expose the health of your application
+- Avoid running as root
+- Carefully choose the image version
+
+---
+
 ## BeyondCorp Enterprise
 
 エージェントレス・VPNレスで社内ITサービスへのアクセスを実現する、Googleのセキュリティサービス群　　
