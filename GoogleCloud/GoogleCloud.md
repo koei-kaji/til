@@ -2,18 +2,19 @@
 
 - [Google Cloud](#google-cloud)
   - [Best practices for operating containers](#best-practices-for-operating-containers)
+    - [Links](#links)
   - [BeyondCorp Enterprise](#beyondcorp-enterprise)
     - [構成要素](#構成要素)
-    - [Links](#links)
+    - [Links](#links-1)
   - [Cloud Armor](#cloud-armor)
     - [セキュリティポリシー](#セキュリティポリシー)
-    - [Links](#links-1)
-  - [Connect to Google Cloud](#connect-to-google-cloud)
     - [Links](#links-2)
-  - [IAP Connector](#iap-connector)
+  - [Connect to Google Cloud](#connect-to-google-cloud)
     - [Links](#links-3)
-  - [VPC Service Controls](#vpc-service-controls)
+  - [IAP Connector](#iap-connector)
     - [Links](#links-4)
+  - [VPC Service Controls](#vpc-service-controls)
+    - [Links](#links-5)
 
 ---
 
@@ -29,6 +30,10 @@
 - Expose the health of your application
 - Avoid running as root
 - Carefully choose the image version
+
+### Links
+
+- [Google Cloud | Best practices for operating containers](https://cloud.google.com/architecture/best-practices-for-operating-containers)
 
 ---
 
