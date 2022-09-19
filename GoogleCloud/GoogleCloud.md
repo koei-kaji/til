@@ -1,5 +1,25 @@
 # Google Cloud
 
+## BeyondCorp Enterprise
+
+エージェントレス・VPNレスで社内ITサービスへのアクセスを実現する、Googleのセキュリティサービス群　　
+
+**ゼロトラストセキュリティ**：ユーザのリクエストのコンテキスト（デバイス状態、アクセス状況等、IDとパスワードだけに頼らない各種背景情報）を判断に使ってアクセス制御を行う方式
+
+### 構成要素
+
+- Identity-Aware Proxy (IAP)
+- Identity and Access Management (IAM)
+- Access Context Manager
+- Endpoint Verification
+
+### Links
+
+- [Ggen Tech Blog | BeyondCorp Enterprise](https://blog.g-gen.co.jp/entry/beyondcorp-enterprise-explained)
+- [net one | ゼロトラストセキュリティ](https://www.netone.co.jp/knowledge-center/netone-blog/20200501-1/)
+
+---
+
 ## Cloud Armor
 
 - WAF(Web Application Firewall)
@@ -13,8 +33,8 @@
 
 ### Links
 
+- [Ggen Tech Blog | Cloud Armor](https://blog.g-gen.co.jp/entry/cloud-armor-explained)
 - [Google Cloud | Cloud Armor](https://cloud.google.com/armor)
-- [GgenTechBlog | Cloud Armor](https://blog.g-gen.co.jp/entry/cloud-armor-explained)
 - [OWASP | OWASP Top 10](https://owasp.org/www-project-top-ten/)
 
 ---
@@ -30,9 +50,32 @@
 
 ![利用目的とそれに適した接続方法のイメージ図](https://atbex.attokyo.co.jp/files/news2/Blog/20220224_Google_Cloud_Interconnect/riyoumokuteki.png)
 
----
-
 ### Links
 
 - [ATBex | Cloud Interconnect](https://atbex.attokyo.co.jp/blog/detail/37/)
 - [Google Cloud | Direct Peering](https://cloud.google.com/network-connectivity/docs/direct-peering?hl=ja)
+
+---
+
+## IAP Connector
+
+GCP外のシステムをCloud IAPのバックエンドとして利用する仕組み  
+実態はGKEクラスタ上で実行されるAmbassador API Gatewayコンテナ  
+
+![IAP Connectorの構成図](https://cdn-ssl-devio-img.classmethod.jp/wp-content/uploads/2020/04/beyondcorpra01_1.png)
+
+### Links
+
+- [DevelopersIO | Cloud IAP Connector](https://dev.classmethod.jp/articles/beyondcorp-remote-access-getting-started1/)
+- [Google Cloud | マネージドEnvoyを使用したIAPコネクタのデプロイ](https://cloud.google.com/architecture/deploying-iap-connector-using-managed-envoy?hl=ja)
+
+---
+
+## VPC Service Controls
+
+Google Cloud サービスに対するAPIコールの接続元を制限する
+
+### Links
+
+- [Ggen Tech Blog | VPC Service Controls](https://blog.g-gen.co.jp/entry/vpc-service-controls-explained)
+- [Google Cloud | VPC Service Controls](https://cloud.google.com/vpc-service-controls)
