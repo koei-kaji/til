@@ -11,12 +11,28 @@
 防御ルールの設定  
 セキュリティポリシーを作成して、外部HTTP(S)ロードバランサのバックエンドサービスにアタッチすることで、ルールが効果を発揮する  
 
-### Link
+### Links
 
-- [Google Cloud | Cloud Armor][Google_CloudArmor]
-- [GgenTechBlog | Cloud Armor][GgenTechBlog_CloudArmor]
-- [OWASP | OWASP Top 10][OWASP_OWASPTopTen]
+- [Google Cloud | Cloud Armor](https://cloud.google.com/armor)
+- [GgenTechBlog | Cloud Armor](https://blog.g-gen.co.jp/entry/cloud-armor-explained)
+- [OWASP | OWASP Top 10](https://owasp.org/www-project-top-ten/)
 
-[Google_CloudArmor]: https://cloud.google.com/armor
-[GgenTechBlog_CloudArmor]: https://blog.g-gen.co.jp/entry/cloud-armor-explained
-[OWASP_OWASPTopTen]: https://owasp.org/www-project-top-ten/
+---
+
+## Connect to Google Cloud
+
+- **Cloud VPN**
+- **Cloud Interconnect**
+  - Dedicated Interconnect
+  - Partner Interconnect
+- Direct Peering
+- Carrier Peering
+
+![利用目的とそれに適した接続方法のイメージ図](https://atbex.attokyo.co.jp/files/news2/Blog/20220224_Google_Cloud_Interconnect/riyoumokuteki.png)
+
+---
+
+### Links
+
+- [ATBex | Cloud Interconnect](https://atbex.attokyo.co.jp/blog/detail/37/)
+- [Google Cloud | Direct Peering](https://cloud.google.com/network-connectivity/docs/direct-peering?hl=ja)
