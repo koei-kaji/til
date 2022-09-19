@@ -9,12 +9,14 @@
   - [Cloud Armor](#cloud-armor)
     - [セキュリティポリシー](#セキュリティポリシー)
     - [Links](#links-2)
-  - [Connect to Google Cloud](#connect-to-google-cloud)
+  - [Cloud Data Loss Prevention](#cloud-data-loss-prevention)
     - [Links](#links-3)
-  - [IAP Connector](#iap-connector)
+  - [Connect to Google Cloud](#connect-to-google-cloud)
     - [Links](#links-4)
-  - [VPC Service Controls](#vpc-service-controls)
+  - [IAP Connector](#iap-connector)
     - [Links](#links-5)
+  - [VPC Service Controls](#vpc-service-controls)
+    - [Links](#links-6)
 
 ---
 
@@ -73,6 +75,17 @@
 - [Ggen Tech Blog | Cloud Armor](https://blog.g-gen.co.jp/entry/cloud-armor-explained)
 - [Google Cloud | Cloud Armor](https://cloud.google.com/armor)
 - [OWASP | OWASP Top 10](https://owasp.org/www-project-top-ten/)
+
+---
+
+## Cloud Data Loss Prevention
+
+- \-
+
+### Links
+
+- [DevelopersIO | Cloud DLP](https://dev.classmethod.jp/articles/cloud-dlp-inspect-bigquery/)
+- [Google Cloud | Cloud Data Loss Prevention](https://cloud.google.com/dlp?hl=ja)
 
 ---
 
