@@ -6,10 +6,12 @@
     - [Links](#links)
   - [Cloud Data Loss Prevention](#cloud-data-loss-prevention)
     - [Links](#links-1)
-  - [IAP Connector](#iap-connector)
+  - [Cloud Filestore](#cloud-filestore)
     - [Links](#links-2)
-  - [VPC Service Controls](#vpc-service-controls)
+  - [IAP Connector](#iap-connector)
     - [Links](#links-3)
+  - [VPC Service Controls](#vpc-service-controls)
+    - [Links](#links-4)
 
 ---
 
@@ -42,6 +44,15 @@
 - [Google Cloud | Cloud Data Loss Prevention](https://cloud.google.com/dlp?hl=ja)
 
 ---
+
+## Cloud Filestore
+
+- \-
+
+### Links
+
+- [Google Cloud | Filestore](https://cloud.google.com/filestore)
+- [TOPGATE | GCP Storage](https://www.topgate.co.jp/google-cloud-day-storage#filestore)
 
 ## IAP Connector
 
