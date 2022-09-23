@@ -6,12 +6,14 @@
     - [Links](#links)
   - [Cloud Data Loss Prevention](#cloud-data-loss-prevention)
     - [Links](#links-1)
-  - [Cloud Filestore](#cloud-filestore)
+  - [Cloud Dataprep by Trifacta](#cloud-dataprep-by-trifacta)
     - [Links](#links-2)
-  - [IAP Connector](#iap-connector)
+  - [Cloud Filestore](#cloud-filestore)
     - [Links](#links-3)
-  - [VPC Service Controls](#vpc-service-controls)
+  - [IAP Connector](#iap-connector)
     - [Links](#links-4)
+  - [VPC Service Controls](#vpc-service-controls)
+    - [Links](#links-5)
 
 ---
 
@@ -44,6 +46,16 @@
 - [Google Cloud | Cloud Data Loss Prevention](https://cloud.google.com/dlp?hl=ja)
 
 ---
+
+## Cloud Dataprep by Trifacta
+
+- データクレンジングサービス
+- フルマネージドかつサーバーレス
+
+### Links
+
+- [Google Cloud | Cloud Dataprep by Trifacta](https://cloud.google.com/dataprep?hl=ja)
+- [TOPGATE | Cloud Dataprep](https://www.topgate.co.jp/cloud-dataprep)
 
 ## Cloud Filestore
 
