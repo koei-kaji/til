@@ -19,10 +19,13 @@
     - [Links](#links-6)
   - [Cloud Audit Logs](#cloud-audit-logs)
     - [Links](#links-7)
-  - [IAP Connector](#iap-connector)
+  - [Compute Engine](#compute-engine)
+    - [Viewing and applying idle vm recommendations](#viewing-and-applying-idle-vm-recommendations)
     - [Links](#links-8)
-  - [VPC Service Controls](#vpc-service-controls)
+  - [IAP Connector](#iap-connector)
     - [Links](#links-9)
+  - [VPC Service Controls](#vpc-service-controls)
+    - [Links](#links-10)
 
 ---
 
@@ -131,6 +134,17 @@
 - [Ggen Tech Blog | Cloud Audit Logs](https://blog.g-gen.co.jp/entry/cloud-audit-logs-explained)
 
 ---
+
+## Compute Engine
+
+### Viewing and applying idle vm recommendations
+
+使用されていないVMインスタンスを識別できるように、アイドル状態のVMに対して"推奨"が表示される
+過去14日感の使用状況を指標に基づいてVMインスタンスに関する"推奨"を生成する
+
+### Links
+
+- [Google Cloud | Viewing and applying idle vm recommendations](https://cloud.google.com/compute/docs/instances/viewing-and-applying-idle-vm-recommendations)
 
 ## IAP Connector
 
