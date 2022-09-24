@@ -10,10 +10,12 @@
     - [Links](#links-2)
   - [Cloud Filestore](#cloud-filestore)
     - [Links](#links-3)
-  - [IAP Connector](#iap-connector)
+  - [Cloud Audit Logs](#cloud-audit-logs)
     - [Links](#links-4)
-  - [VPC Service Controls](#vpc-service-controls)
+  - [IAP Connector](#iap-connector)
     - [Links](#links-5)
+  - [VPC Service Controls](#vpc-service-controls)
+    - [Links](#links-6)
 
 ---
 
@@ -57,6 +59,8 @@
 - [Google Cloud | Cloud Dataprep by Trifacta](https://cloud.google.com/dataprep?hl=ja)
 - [TOPGATE | Cloud Dataprep](https://www.topgate.co.jp/cloud-dataprep)
 
+---
+
 ## Cloud Filestore
 
 - \-
@@ -65,6 +69,27 @@
 
 - [Google Cloud | Filestore](https://cloud.google.com/filestore)
 - [TOPGATE | GCP Storage](https://www.topgate.co.jp/google-cloud-day-storage#filestore)
+
+---
+
+## Cloud Audit Logs
+
+管理アクティビティとGoogle Cloudリソース内のアクセスを記録する監査ログを書き込む
+記録されたログはCloud Loggingに保存される
+
+| #   | 名称                       | 説明                                                                                                               | 料金 | default                      |
+| --- | -------------------------- | ------------------------------------------------------------------------------------------------------------------ | ---- | ---------------------------- |
+| 1   | 管理アクティビティ監査ログ | リソースに対する更新系のAPIコールを記録                                                                            | 無料 | 有効（無効化できない）       |
+| 2   | データアクセス監査ログ     | リソースに対する参照系のAPIコール、データの参照・更新系のAPIコールを記録。ログ容量が大きくなる可能性があるため注意 | 有料 | 無効（BigQueryのみ有効）     |
+| 3   | システムイベント監査ログ   | Google Cloudサービスによって行われたリソース構成変更を記録                                                         | 無料 | 有効（無効化できない）       |
+| 4   | ポリシー拒否監査ログ       | VPC Service Controls機能で拒否されたAPIコールを記録                                                                | 有料 | 有効（除外フィルタ設定可能） |
+
+### Links
+
+- [Google Cloud | Cloud Audit Logs](https://cloud.google.com/logging/docs/audit)
+- [Ggen Tech Blog | Cloud Audit Logs](https://blog.g-gen.co.jp/entry/cloud-audit-logs-explained)
+
+---
 
 ## IAP Connector
 
