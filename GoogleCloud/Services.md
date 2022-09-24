@@ -4,20 +4,23 @@
   - [Cloud Armor](#cloud-armor)
     - [Security Policy](#security-policy)
     - [Links](#links)
-  - [Cloud Bigtable](#cloud-bigtable)
+  - [Cloud BigQuery](#cloud-bigquery)
+    - [Materialized view](#materialized-view)
     - [Links](#links-1)
-  - [Cloud Data Loss Prevention](#cloud-data-loss-prevention)
+  - [Cloud Bigtable](#cloud-bigtable)
     - [Links](#links-2)
-  - [Cloud Dataprep by Trifacta](#cloud-dataprep-by-trifacta)
+  - [Cloud Data Loss Prevention](#cloud-data-loss-prevention)
     - [Links](#links-3)
-  - [Cloud Filestore](#cloud-filestore)
+  - [Cloud Dataprep by Trifacta](#cloud-dataprep-by-trifacta)
     - [Links](#links-4)
-  - [Cloud Audit Logs](#cloud-audit-logs)
+  - [Cloud Filestore](#cloud-filestore)
     - [Links](#links-5)
-  - [IAP Connector](#iap-connector)
+  - [Cloud Audit Logs](#cloud-audit-logs)
     - [Links](#links-6)
-  - [VPC Service Controls](#vpc-service-controls)
+  - [IAP Connector](#iap-connector)
     - [Links](#links-7)
+  - [VPC Service Controls](#vpc-service-controls)
+    - [Links](#links-8)
 
 ---
 
@@ -37,6 +40,19 @@
 - [Ggen Tech Blog | Cloud Armor](https://blog.g-gen.co.jp/entry/cloud-armor-explained)
 - [Google Cloud | Cloud Armor](https://cloud.google.com/armor)
 - [OWASP | OWASP Top 10](https://owasp.org/www-project-top-ten/)
+
+---
+
+## Cloud BigQuery
+
+### Materialized view
+
+事前に計算されたビュー、結果を定期的にキャッシュに保存する
+メンテナンス不要、最新のデータ、スマートな調整
+
+### Links
+
+- [Google Cloud | Materialized view](https://cloud.google.com/bigquery/docs/materialized-views-intro)
 
 ---
 
