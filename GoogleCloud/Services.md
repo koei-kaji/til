@@ -4,18 +4,20 @@
   - [Cloud Armor](#cloud-armor)
     - [Security Policy](#security-policy)
     - [Links](#links)
-  - [Cloud Data Loss Prevention](#cloud-data-loss-prevention)
+  - [Cloud Bigtable](#cloud-bigtable)
     - [Links](#links-1)
-  - [Cloud Dataprep by Trifacta](#cloud-dataprep-by-trifacta)
+  - [Cloud Data Loss Prevention](#cloud-data-loss-prevention)
     - [Links](#links-2)
-  - [Cloud Filestore](#cloud-filestore)
+  - [Cloud Dataprep by Trifacta](#cloud-dataprep-by-trifacta)
     - [Links](#links-3)
-  - [Cloud Audit Logs](#cloud-audit-logs)
+  - [Cloud Filestore](#cloud-filestore)
     - [Links](#links-4)
-  - [IAP Connector](#iap-connector)
+  - [Cloud Audit Logs](#cloud-audit-logs)
     - [Links](#links-5)
-  - [VPC Service Controls](#vpc-service-controls)
+  - [IAP Connector](#iap-connector)
     - [Links](#links-6)
+  - [VPC Service Controls](#vpc-service-controls)
+    - [Links](#links-7)
 
 ---
 
@@ -35,6 +37,18 @@
 - [Ggen Tech Blog | Cloud Armor](https://blog.g-gen.co.jp/entry/cloud-armor-explained)
 - [Google Cloud | Cloud Armor](https://cloud.google.com/armor)
 - [OWASP | OWASP Top 10](https://owasp.org/www-project-top-ten/)
+
+---
+
+## Cloud Bigtable
+
+- \-
+
+### Links
+
+- [Google Cloud | Bigtable overview](https://cloud.google.com/bigtable/docs/overview)
+- [Google Cloud | Bigtable schema design](https://cloud.google.com/bigtable/docs/schema-design)
+- [Google Cloud | Key Visualizer](https://cloud.google.com/bigtable/docs/keyvis-overview)
 
 ---
 
