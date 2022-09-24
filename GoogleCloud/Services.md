@@ -1,28 +1,39 @@
 # Google Cloud Managed Services
 
 - [Google Cloud Managed Services](#google-cloud-managed-services)
+  - [Binary Authorization](#binary-authorization)
+    - [Links](#links)
   - [Cloud Armor](#cloud-armor)
     - [Security Policy](#security-policy)
-    - [Links](#links)
+    - [Links](#links-1)
   - [Cloud BigQuery](#cloud-bigquery)
     - [Materialized view](#materialized-view)
-    - [Links](#links-1)
-  - [Cloud Bigtable](#cloud-bigtable)
     - [Links](#links-2)
-  - [Cloud Data Loss Prevention](#cloud-data-loss-prevention)
+  - [Cloud Bigtable](#cloud-bigtable)
     - [Links](#links-3)
-  - [Cloud Dataprep by Trifacta](#cloud-dataprep-by-trifacta)
+  - [Cloud Data Loss Prevention](#cloud-data-loss-prevention)
     - [Links](#links-4)
-  - [Cloud Filestore](#cloud-filestore)
+  - [Cloud Dataprep by Trifacta](#cloud-dataprep-by-trifacta)
     - [Links](#links-5)
-  - [Cloud Audit Logs](#cloud-audit-logs)
+  - [Cloud Filestore](#cloud-filestore)
     - [Links](#links-6)
-  - [IAP Connector](#iap-connector)
+  - [Cloud Audit Logs](#cloud-audit-logs)
     - [Links](#links-7)
-  - [VPC Service Controls](#vpc-service-controls)
+  - [IAP Connector](#iap-connector)
     - [Links](#links-8)
+  - [VPC Service Controls](#vpc-service-controls)
+    - [Links](#links-9)
 
 ---
+
+## Binary Authorization
+
+- \-
+
+### Links
+
+- [Google Cloud](https://cloud.google.com/binary-authorization?hl=ja)
+- [TOPGATE | Google Cloud security application](https://www.topgate.co.jp/google-cloud-security-application#binary-authorization)
 
 ## Cloud Armor
 
