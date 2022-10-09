@@ -11,21 +11,23 @@
     - [Links](#links-2)
   - [Cloud Bigtable](#cloud-bigtable)
     - [Links](#links-3)
-  - [Cloud Data Loss Prevention](#cloud-data-loss-prevention)
+  - [Cloud CDN](#cloud-cdn)
     - [Links](#links-4)
-  - [Cloud Dataprep by Trifacta](#cloud-dataprep-by-trifacta)
+  - [Cloud Data Loss Prevention](#cloud-data-loss-prevention)
     - [Links](#links-5)
-  - [Cloud Filestore](#cloud-filestore)
+  - [Cloud Dataprep by Trifacta](#cloud-dataprep-by-trifacta)
     - [Links](#links-6)
-  - [Cloud Audit Logs](#cloud-audit-logs)
+  - [Cloud Filestore](#cloud-filestore)
     - [Links](#links-7)
+  - [Cloud Audit Logs](#cloud-audit-logs)
+    - [Links](#links-8)
   - [Compute Engine](#compute-engine)
     - [Viewing and applying idle vm recommendations](#viewing-and-applying-idle-vm-recommendations)
-    - [Links](#links-8)
-  - [IAP Connector](#iap-connector)
     - [Links](#links-9)
-  - [VPC Service Controls](#vpc-service-controls)
+  - [IAP Connector](#iap-connector)
     - [Links](#links-10)
+  - [VPC Service Controls](#vpc-service-controls)
+    - [Links](#links-11)
 
 ---
 
@@ -79,6 +81,16 @@
 - [Google Cloud | Bigtable overview](https://cloud.google.com/bigtable/docs/overview)
 - [Google Cloud | Bigtable schema design](https://cloud.google.com/bigtable/docs/schema-design)
 - [Google Cloud | Key Visualizer](https://cloud.google.com/bigtable/docs/keyvis-overview)
+
+---
+
+## Cloud CDN
+
+バックエンドサービスの場合、デフォルトで完全なリクエストURIをキャッシュキーとして使用する。
+
+### Links
+
+- [Google Cloud | Cloud CDN キャッシュの概要(https://cloud.google.com/cdn/docs/caching#cache-keys)
 
 ---
 
