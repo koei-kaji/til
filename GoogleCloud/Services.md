@@ -21,13 +21,15 @@
     - [Links](#links-7)
   - [Cloud Filestore](#cloud-filestore)
     - [Links](#links-8)
+  - [Cloud Pub/Sub](#cloud-pubsub)
+    - [Links](#links-9)
   - [Compute Engine](#compute-engine)
     - [Viewing and applying idle vm recommendations](#viewing-and-applying-idle-vm-recommendations)
-    - [Links](#links-9)
-  - [IAP Connector](#iap-connector)
     - [Links](#links-10)
-  - [VPC Service Controls](#vpc-service-controls)
+  - [IAP Connector](#iap-connector)
     - [Links](#links-11)
+  - [VPC Service Controls](#vpc-service-controls)
+    - [Links](#links-12)
 
 ---
 
@@ -144,6 +146,18 @@
 
 - [Google Cloud | Filestore](https://cloud.google.com/filestore)
 - [TOPGATE | GCP Storage](https://www.topgate.co.jp/google-cloud-day-storage#filestore)
+
+---
+
+## Cloud Pub/Sub
+
+Pub/Subクライアントライブラリは、複数のメッセージをバッチにまとめて1回の呼び出しでサービスに送信する。  
+バッチサイズを大きくすると、メッセージのスループットが向上する。  
+レイテンシを最小にするには、バッチ処理をオフにする必要がある。  
+
+### Links
+
+- [Google Cloud | Cloud Pub/Sub メッセージのバッチ処理](https://cloud.google.com/pubsub/docs/publisher#batching)
 
 ---
 
