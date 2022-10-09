@@ -6,20 +6,20 @@
   - [Cloud Armor](#cloud-armor)
     - [Security Policy](#security-policy)
     - [Links](#links-1)
+  - [Cloud Audit Logs](#cloud-audit-logs)
+    - [Links](#links-2)
   - [Cloud BigQuery](#cloud-bigquery)
     - [Materialized view](#materialized-view)
-    - [Links](#links-2)
-  - [Cloud Bigtable](#cloud-bigtable)
     - [Links](#links-3)
-  - [Cloud CDN](#cloud-cdn)
+  - [Cloud Bigtable](#cloud-bigtable)
     - [Links](#links-4)
-  - [Cloud Data Loss Prevention](#cloud-data-loss-prevention)
+  - [Cloud CDN](#cloud-cdn)
     - [Links](#links-5)
-  - [Cloud Dataprep by Trifacta](#cloud-dataprep-by-trifacta)
+  - [Cloud Data Loss Prevention](#cloud-data-loss-prevention)
     - [Links](#links-6)
-  - [Cloud Filestore](#cloud-filestore)
+  - [Cloud Dataprep by Trifacta](#cloud-dataprep-by-trifacta)
     - [Links](#links-7)
-  - [Cloud Audit Logs](#cloud-audit-logs)
+  - [Cloud Filestore](#cloud-filestore)
     - [Links](#links-8)
   - [Compute Engine](#compute-engine)
     - [Viewing and applying idle vm recommendations](#viewing-and-applying-idle-vm-recommendations)
@@ -56,6 +56,25 @@
 - [Ggen Tech Blog | Cloud Armor](https://blog.g-gen.co.jp/entry/cloud-armor-explained)
 - [Google Cloud | Cloud Armor](https://cloud.google.com/armor)
 - [OWASP | OWASP Top 10](https://owasp.org/www-project-top-ten/)
+
+---
+
+## Cloud Audit Logs
+
+管理アクティビティとGoogle Cloudリソース内のアクセスを記録する監査ログを書き込む
+記録されたログはCloud Loggingに保存される
+
+| #   | 名称                       | 説明                                                                                                               | 料金 | default                      |
+| --- | -------------------------- | ------------------------------------------------------------------------------------------------------------------ | ---- | ---------------------------- |
+| 1   | 管理アクティビティ監査ログ | リソースに対する更新系のAPIコールを記録                                                                            | 無料 | 有効（無効化できない）       |
+| 2   | データアクセス監査ログ     | リソースに対する参照系のAPIコール、データの参照・更新系のAPIコールを記録。ログ容量が大きくなる可能性があるため注意 | 有料 | 無効（BigQueryのみ有効）     |
+| 3   | システムイベント監査ログ   | Google Cloudサービスによって行われたリソース構成変更を記録                                                         | 無料 | 有効（無効化できない）       |
+| 4   | ポリシー拒否監査ログ       | VPC Service Controls機能で拒否されたAPIコールを記録                                                                | 有料 | 有効（除外フィルタ設定可能） |
+
+### Links
+
+- [Google Cloud | Cloud Audit Logs](https://cloud.google.com/logging/docs/audit)
+- [Ggen Tech Blog | Cloud Audit Logs](https://blog.g-gen.co.jp/entry/cloud-audit-logs-explained)
 
 ---
 
@@ -125,25 +144,6 @@
 
 - [Google Cloud | Filestore](https://cloud.google.com/filestore)
 - [TOPGATE | GCP Storage](https://www.topgate.co.jp/google-cloud-day-storage#filestore)
-
----
-
-## Cloud Audit Logs
-
-管理アクティビティとGoogle Cloudリソース内のアクセスを記録する監査ログを書き込む
-記録されたログはCloud Loggingに保存される
-
-| #   | 名称                       | 説明                                                                                                               | 料金 | default                      |
-| --- | -------------------------- | ------------------------------------------------------------------------------------------------------------------ | ---- | ---------------------------- |
-| 1   | 管理アクティビティ監査ログ | リソースに対する更新系のAPIコールを記録                                                                            | 無料 | 有効（無効化できない）       |
-| 2   | データアクセス監査ログ     | リソースに対する参照系のAPIコール、データの参照・更新系のAPIコールを記録。ログ容量が大きくなる可能性があるため注意 | 有料 | 無効（BigQueryのみ有効）     |
-| 3   | システムイベント監査ログ   | Google Cloudサービスによって行われたリソース構成変更を記録                                                         | 無料 | 有効（無効化できない）       |
-| 4   | ポリシー拒否監査ログ       | VPC Service Controls機能で拒否されたAPIコールを記録                                                                | 有料 | 有効（除外フィルタ設定可能） |
-
-### Links
-
-- [Google Cloud | Cloud Audit Logs](https://cloud.google.com/logging/docs/audit)
-- [Ggen Tech Blog | Cloud Audit Logs](https://blog.g-gen.co.jp/entry/cloud-audit-logs-explained)
 
 ---
 
