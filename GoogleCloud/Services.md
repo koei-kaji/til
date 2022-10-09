@@ -26,10 +26,12 @@
   - [Compute Engine](#compute-engine)
     - [Viewing and applying idle vm recommendations](#viewing-and-applying-idle-vm-recommendations)
     - [Links](#links-10)
-  - [IAP Connector](#iap-connector)
+  - [Google Kubernetes Engine(GKE)](#google-kubernetes-enginegke)
     - [Links](#links-11)
-  - [VPC Service Controls](#vpc-service-controls)
+  - [IAP Connector](#iap-connector)
     - [Links](#links-12)
+  - [VPC Service Controls](#vpc-service-controls)
+    - [Links](#links-13)
 
 ---
 
@@ -173,6 +175,14 @@ Pub/Subクライアントライブラリは、複数のメッセージをバッ�
 - [Google Cloud | Viewing and applying idle vm recommendations](https://cloud.google.com/compute/docs/instances/viewing-and-applying-idle-vm-recommendations)
 
 ---
+
+## Google Kubernetes Engine(GKE)
+
+マルチリージョンにGKEを展開してIngressを設定するには、Anthosの使用が必要。  
+
+### Links
+
+- [Google Cloud | Google Kubernetes Engine マルチクラスタ Ingress](https://cloud.google.com/kubernetes-engine/docs/concepts/multi-cluster-ingress)
 
 ## IAP Connector
 
